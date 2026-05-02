@@ -547,7 +547,98 @@ const LESSONS = [
       {d:'五',s:'讀解',t:'短文練習×2篇（N3題型）',note:'整理本週單字筆記'},
       {d:'六',s:'聽解',t:'N3聽力題型練習×1大題',note:'EP2精聽一段'},
     ],
-    anime_note:[['文法','「好きになってしまったかも」→ 〜てしまう（不由自主）'],['單字','触れる・気持ち・緊張・見える'],['聽力','注意角色說話速度・停頓・助詞']]
+    anime_note:[['文法','「好きになってしまったかも」→ 〜てしまう（不由自主）'],['單字','触れる・気持ち・緊張・見える'],['聽力','注意角色說話速度・停頓・助詞']],
+    vocab:[
+      {type:'動詞', words:[
+        {w:'気づく',r:'きづく',m:'察覺、發現'},
+        {w:'感じる',r:'かんじる',m:'感覺到'},
+        {w:'落ち込む',r:'おちこむ',m:'沮喪、消沉'},
+        {w:'緊張する',r:'きんちょうする',m:'緊張'},
+        {w:'安心する',r:'あんしんする',m:'放心、安心'},
+        {w:'心配する',r:'しんぱいする',m:'擔心'},
+        {w:'驚く',r:'おどろく',m:'吃驚、驚訝'},
+        {w:'喜ぶ',r:'よろこぶ',m:'高興、開心'},
+        {w:'悲しむ',r:'かなしむ',m:'悲傷'},
+        {w:'怒る',r:'おこる',m:'生氣'},
+        {w:'恥ずかしがる',r:'はずかしがる',m:'感到害羞'},
+        {w:'照れる',r:'てれる',m:'臉紅、不好意思'},
+        {w:'慌てる',r:'あわてる',m:'慌張、著急'},
+        {w:'焦る',r:'あせる',m:'焦急、著急'},
+        {w:'迷う',r:'まよう',m:'迷惘、猶豫'},
+        {w:'悩む',r:'なやむ',m:'煩惱'},
+        {w:'諦める',r:'あきらめる',m:'放棄'},
+        {w:'我慢する',r:'がまんする',m:'忍耐、忍住'},
+        {w:'後悔する',r:'こうかいする',m:'後悔'},
+        {w:'感動する',r:'かんどうする',m:'感動'},
+        {w:'興奮する',r:'こうふんする',m:'興奮'},
+        {w:'満足する',r:'まんぞくする',m:'滿足'},
+        {w:'失望する',r:'しつぼうする',m:'失望'},
+        {w:'期待する',r:'きたいする',m:'期待'},
+        {w:'信頼する',r:'しんらいする',m:'信賴'},
+        {w:'尊敬する',r:'そんけいする',m:'尊敬'},
+        {w:'嫉妬する',r:'しっとする',m:'嫉妒'},
+        {w:'甘える',r:'あまえる',m:'撒嬌、依賴'},
+        {w:'恋をする',r:'こいをする',m:'談戀愛'},
+        {w:'告白する',r:'こくはくする',m:'告白'},
+      ]},
+      {type:'形容詞', words:[
+        {w:'恥ずかしい',r:'はずかしい',m:'害羞的、丟臉的'},
+        {w:'嬉しい',r:'うれしい',m:'高興的'},
+        {w:'悲しい',r:'かなしい',m:'悲傷的'},
+        {w:'寂しい',r:'さびしい',m:'寂寞的'},
+        {w:'辛い',r:'つらい',m:'痛苦的、辛苦的'},
+        {w:'苦しい',r:'くるしい',m:'難受的、苦悶的'},
+        {w:'怖い',r:'こわい',m:'可怕的'},
+        {w:'懐かしい',r:'なつかしい',m:'懷念的'},
+        {w:'羨ましい',r:'うらやましい',m:'羨慕的'},
+        {w:'もどかしい',r:'もどかしい',m:'令人著急的、焦躁的'},
+        {w:'素直',r:'すなお',m:'坦率的（な形容詞）'},
+        {w:'穏やか',r:'おだやか',m:'溫和的、平靜的（な）'},
+        {w:'真剣',r:'しんけん',m:'認真的、正經的（な）'},
+        {w:'冷静',r:'れいせい',m:'冷靜的（な）'},
+        {w:'夢中',r:'むちゅう',m:'沉迷的、著迷的（な）'},
+        {w:'不安',r:'ふあん',m:'不安的（な）'},
+        {w:'幸せ',r:'しあわせ',m:'幸福的（な）'},
+        {w:'複雑',r:'ふくざつ',m:'複雜的（な）'},
+        {w:'純粋',r:'じゅんすい',m:'純粹的（な）'},
+        {w:'敏感',r:'びんかん',m:'敏感的（な）'},
+      ]},
+    ],
+    grammar:[
+      {
+        title:'〜てしまう／〜ちゃう',
+        pattern:'動詞て形 ＋ しまう',
+        meaning:'① 不由自主地、遺憾地做了某事\n② 完全做完某事',
+        examples:[
+          {jp:'彼のことが好きになってしまった。',tw:'不知不覺就喜歡上他了。',note:'①不由自主'},
+          {jp:'宿題を全部やってしまった。',tw:'作業全部做完了。',note:'②完成'},
+          {jp:'財布を忘れちゃった！',tw:'錢包忘記帶了！',note:'口語ちゃう'},
+        ],
+        tip:'チェリまほ裡超常出現！安達心裡OS都是てしまう 🌹',
+      },
+      {
+        title:'〜ようになる',
+        pattern:'動詞辭書形／ない形 ＋ ようになる',
+        meaning:'漸漸變得能做某事（能力或習慣的變化）',
+        examples:[
+          {jp:'日本語が話せるようになった。',tw:'變得能說日文了。',note:'能力變化'},
+          {jp:'毎日運動するようになった。',tw:'漸漸養成每天運動的習慣了。',note:'習慣變化'},
+          {jp:'彼のことが気になるようになった。',tw:'漸漸開始在意他了。',note:'感情變化'},
+        ],
+        tip:'注意和〜ことにする（自己決定）的差別：ようになる是自然發生的變化！',
+      },
+      {
+        title:'〜なくなる',
+        pattern:'動詞ない形（去い）＋ なくなる',
+        meaning:'漸漸變得不做某事了（否定的狀態變化）',
+        examples:[
+          {jp:'最近、彼のことを考えなくなった。',tw:'最近漸漸不再想他了。',note:''},
+          {jp:'緊張しなくなってきた。',tw:'漸漸不緊張了。',note:''},
+          {jp:'眠れなくなってしまった。',tw:'變得睡不著了。（＋てしまう）',note:'組合用法'},
+        ],
+        tip:'〜ようになる和〜なくなる是一組！前者是「開始做」後者是「不再做」。',
+      },
+    ],
   },
   { wk:'Week 2', date:'5/8–5/14', theme:'文法集中攻略 上', anime:'EP3–4',
     days:[
@@ -651,6 +742,66 @@ function renderLesson(){
   const subjectColor = {語彙:'#3D8A7A',文法:'#5A3D8A',讀解:'#9C3A5A',聽解:'#9C5E2A',模擬:'#C9A0B0',休息:'#8B7B74',複習:'#5A3D8A',綜合:'#8B7B74',輕鬆:'#8B7B74',考試:'#E88CA0',檢討:'#9C5E2A','':"#8B7B74"};
   const subjectBg = {語彙:'#E4F5F0',文法:'#EDE4F5',讀解:'#FFF0F4',聽解:'#FAEEDA',模擬:'#FFE4EC',休息:'#F5F5F5',複習:'#EDE4F5',綜合:'#F5F5F5',輕鬆:'#F5F5F5',考試:'#FFE4EC',檢討:'#FAEEDA','':"#F5F5F5"};
 
+  // vocab section
+  let vocabHTML = '';
+  if(l.vocab && l.vocab.length){
+    const groups = l.vocab.map((g,gi)=>`
+      <div style="margin-bottom:10px;">
+        <div style="font-size:.68rem;font-weight:700;color:var(--brown);margin-bottom:6px;padding:2px 0;border-bottom:1px solid var(--pink-light);">${g.type}</div>
+        <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:5px;">
+          ${g.words.map(w=>`
+            <div style="background:var(--white);border:1px solid rgba(255,183,197,.25);border-radius:9px;padding:6px 9px;cursor:pointer;" onclick="this.querySelector('.meaning').style.display=this.querySelector('.meaning').style.display==='block'?'none':'block'">
+              <div style="display:flex;align-items:baseline;gap:5px;">
+                <span style="font-size:.85rem;font-weight:600;color:var(--text);">${w.w}</span>
+                <span style="font-size:.6rem;color:var(--muted);">${w.r}</span>
+              </div>
+              <div class="meaning" style="display:none;font-size:.68rem;color:#5A3D8A;margin-top:3px;padding-top:3px;border-top:1px solid var(--pink-light);">${w.m}</div>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `).join('');
+    vocabHTML = `
+      <div style="background:var(--white);border-radius:14px;padding:14px 16px;margin-bottom:12px;box-shadow:0 2px 10px rgba(255,183,197,.16);border:1.5px solid rgba(255,183,197,.2);">
+        <div style="font-size:.84rem;font-weight:700;display:flex;align-items:center;gap:6px;margin-bottom:12px;cursor:pointer;" onclick="const b=this.nextElementSibling;b.style.display=b.style.display==='none'?'block':'none';this.querySelector('.arr').textContent=b.style.display==='none'?'▸':'▾'">
+          <svg viewBox="0 0 32 32" width="16" height="16"><use href="#i-book"/></svg>
+          本週單字表 <span style="font-size:.65rem;color:var(--muted);font-weight:400;">（點單字可看意思）</span>
+          <span class="arr" style="margin-left:auto;color:var(--muted);">▾</span>
+        </div>
+        <div>${groups}</div>
+      </div>`;
+  }
+
+  // grammar section
+  let grammarHTML = '';
+  if(l.grammar && l.grammar.length){
+    const cards = l.grammar.map(g=>`
+      <div style="background:var(--lavender-light);border-radius:12px;padding:13px 14px;margin-bottom:10px;">
+        <div style="font-size:.88rem;font-weight:700;color:#5A3D8A;margin-bottom:6px;">${g.title}</div>
+        <div style="font-size:.68rem;background:white;border-radius:7px;padding:5px 9px;color:#5A3D8A;display:inline-block;margin-bottom:8px;font-family:monospace;">${g.pattern}</div>
+        <div style="font-size:.72rem;color:var(--text);margin-bottom:10px;white-space:pre-line;">${g.meaning}</div>
+        <div style="font-size:.68rem;font-weight:600;color:var(--muted);margin-bottom:6px;">例文</div>
+        ${g.examples.map(e=>`
+          <div style="background:white;border-radius:8px;padding:8px 10px;margin-bottom:6px;">
+            <div style="font-size:.8rem;color:var(--text);margin-bottom:2px;">${e.jp}</div>
+            <div style="font-size:.68rem;color:var(--muted);">${e.tw}</div>
+            ${e.note?`<div style="font-size:.6rem;background:var(--pink-pale);color:#9C3A5A;padding:1px 6px;border-radius:5px;display:inline-block;margin-top:3px;">${e.note}</div>`:''}
+          </div>
+        `).join('')}
+        ${g.tip?`<div style="font-size:.68rem;color:#5A3D8A;background:white;border-radius:7px;padding:6px 9px;margin-top:4px;">🌹 ${g.tip}</div>`:''}
+      </div>
+    `).join('');
+    grammarHTML = `
+      <div style="background:var(--white);border-radius:14px;padding:14px 16px;margin-bottom:12px;box-shadow:0 2px 10px rgba(255,183,197,.16);border:1.5px solid rgba(212,184,224,.3);">
+        <div style="font-size:.84rem;font-weight:700;display:flex;align-items:center;gap:6px;margin-bottom:12px;cursor:pointer;" onclick="const b=this.nextElementSibling;b.style.display=b.style.display==='none'?'block':'none';this.querySelector('.arr').textContent=b.style.display==='none'?'▸':'▾'">
+          <svg viewBox="0 0 32 32" width="16" height="16"><use href="#i-pencil"/></svg>
+          本週文法說明
+          <span class="arr" style="margin-left:auto;color:var(--muted);">▾</span>
+        </div>
+        <div>${cards}</div>
+      </div>`;
+  }
+
   content.innerHTML = `
     <div class="today-card" style="margin-bottom:12px;">
       <div class="today-title">
@@ -671,6 +822,8 @@ function renderLesson(){
         </div>
       `).join('')}
     </div>
+    ${vocabHTML}
+    ${grammarHTML}
     ${l.anime_note.length?`
     <div class="anime-box" style="margin-bottom:16px;">
       <div class="anime-title">
